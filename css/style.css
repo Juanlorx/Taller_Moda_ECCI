@@ -224,3 +224,63 @@ nav{
     margin-bottom:10px;
     font-size:1.1rem;
 }
+/* Botón */
+#modo{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
+    background:white;
+    color:#333;
+    transition:0.3s;
+}
+
+#modo:hover{
+    transform:scale(1.05);
+}
+
+/* MODO OSCURO */
+
+body.dark{
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #312e81,
+        #111827
+    );
+    color:#f1f1f1;
+}
+
+body.dark section{
+    background:rgba(30,30,30,0.85);
+    color:#f1f1f1;
+}
+
+body.dark .card{
+    background:#252525;
+    color:white;
+}
+
+body.dark .armonia{
+    background:#333;
+    color:white;
+}
+
+body.dark h2{
+    color:#8ec5ff;
+}
+
+body.dark footer{
+    background:#111;
+}
+
+body.dark nav a{
+    color:white;
+}
+
+body.dark #modo{
+    background:#222;
+    color:white;
+}
