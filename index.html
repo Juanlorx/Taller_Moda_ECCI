@@ -5,24 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Mundo del Color</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script>
-    const boton = document.getElementById("modo");
-
-    boton.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-
-        if(document.body.classList.contains("dark")){
-            boton.textContent = "☀️ Modo claro";
-        } else {
-            boton.textContent = "🌙 Modo oscuro";
-        }
-    });
-</script>
 </head>
 
 <body>
 
-    <!-- ENCABEZADO -->
     <header>
 
         <nav>
@@ -35,7 +21,8 @@
                 <li><a href="#armonias">Armonías</a></li>
                 <li><a href="#galeria">Galería</a></li>
             </ul>
-             <button id="modo">🌙 Modo oscuro</button>
+
+            <button id="modo">🌙 Modo oscuro</button>
         </nav>
 
         <div class="hero">
@@ -49,107 +36,88 @@
 
     </header>
 
-    <!-- CONFERENCIA -->
     <section id="conferencia">
-
         <h2>Conferencia de Sara Viloria</h2>
 
         <p>
             Contenido inspirado en la charla impartida por
-            Sara Viloria, Licenciada en Artes Visuales,
-            donde se exploró la importancia del color
-            en el arte, el diseño y la percepción humana.
+            Sara Viloria, Licenciada en Artes Visuales.
         </p>
 
         <div class="imagen-placeholder">
             <img src="./img/sara_viloria.jpg" alt="Sara Viloria">
         </div>
-
     </section>
 
-    <!-- HISTORIA -->
     <section id="historia">
 
         <h2>Historia del Color</h2>
 
         <p>
             Desde las pinturas rupestres hasta las pantallas digitales,
-            el color ha acompañado a la humanidad como una herramienta
-            de expresión, comunicación y arte.
+            el color ha acompañado a la humanidad.
         </p>
 
         <div class="galeria">
 
             <div class="imagen-placeholder">
-                <img src="./img/historia_color.jpg"
-                     alt="Historia del color">
+                <img src="./img/historia_color.jpg" alt="Historia del color">
             </div>
 
             <div class="imagen-placeholder">
-                <img src="./img/color_entorno.jpg"
-                     alt="Color en el entorno">
+                <img src="./img/color_entorno.jpg" alt="Color en el entorno">
             </div>
 
         </div>
 
     </section>
 
-    <!-- TEORÍA -->
     <section id="teoria">
 
         <h2>Tono, Matiz y Saturación</h2>
 
         <div class="card">
-
             <h3>Tono o Color</h3>
 
             <p>
                 Es la ubicación de un color dentro del círculo cromático.
-                Permite distinguir entre rojo, azul, verde y amarillo.
             </p>
 
             <div class="imagen-placeholder">
                 <img src="./img/convinacion_colores.jpg"
                      alt="Combinación de colores">
             </div>
-
         </div>
 
         <div class="card">
-
             <h3>Saturación</h3>
 
             <p>
                 La saturación representa la intensidad del color.
-                Los colores vivos tienen alta saturación y los tonos
-                cercanos al gris poseen baja saturación.
             </p>
 
             <div class="imagen-placeholder">
                 <img src="./img/saturacion.jpg"
                      alt="Saturación del color">
             </div>
-
         </div>
 
     </section>
 
-    <!-- PSICOLOGÍA -->
     <section id="cerebro">
 
         <h2>¿Cómo interpreta el cerebro los colores?</h2>
 
         <p>
-            El cerebro relaciona los colores con emociones,
-            recuerdos y experiencias personales.
+            El cerebro relaciona colores con emociones y recuerdos.
         </p>
 
         <ul>
             <li>🔴 Rojo = pasión y energía.</li>
-            <li>🔵 Azul = tranquilidad y confianza.</li>
-            <li>🟢 Verde = equilibrio y naturaleza.</li>
-            <li>🟡 Amarillo = creatividad y optimismo.</li>
-            <li>🟣 Morado = imaginación y misterio.</li>
+            <li>🔵 Azul = tranquilidad.</li>
+            <li>🟢 Verde = naturaleza.</li>
+            <li>🟡 Amarillo = creatividad.</li>
+            <li>🟣 Morado = imaginación.</li>
         </ul>
 
         <div class="imagen-placeholder">
@@ -159,7 +127,6 @@
 
     </section>
 
-    <!-- ARMONÍAS -->
     <section id="armonias">
 
         <h2>Armonías del Color</h2>
@@ -168,7 +135,7 @@
 
             <div class="armonia">
                 <h3>Complementarios</h3>
-                <p>Colores opuestos en el círculo cromático.</p>
+                <p>Colores opuestos.</p>
             </div>
 
             <div class="armonia">
@@ -178,12 +145,12 @@
 
             <div class="armonia">
                 <h3>Análogos</h3>
-                <p>Colores vecinos del círculo cromático.</p>
+                <p>Colores vecinos.</p>
             </div>
 
             <div class="armonia">
                 <h3>Monocromáticos</h3>
-                <p>Variaciones de un mismo color.</p>
+                <p>Variaciones del mismo color.</p>
             </div>
 
         </div>
@@ -195,19 +162,13 @@
 
     </section>
 
-    <!-- IDENTIFICACIÓN -->
     <section id="identificacion">
 
         <h2>¿Por qué nos identificamos con un color?</h2>
 
         <p>
-            Las preferencias por ciertos colores surgen a partir
-            de nuestras experiencias, cultura, personalidad y recuerdos.
-        </p>
-
-        <p>
-            Un color favorito puede reflejar emociones, aspiraciones
-            o sensaciones con las que nos sentimos conectados.
+            Las preferencias por ciertos colores nacen de nuestras
+            experiencias, recuerdos y personalidad.
         </p>
 
         <div class="imagen-placeholder">
@@ -217,16 +178,15 @@
 
     </section>
 
-    <!-- GALERÍA -->
     <section id="galeria">
 
-        <h2>Galería de Imágenes</h2>
+        <h2>Galería</h2>
 
         <div class="galeria">
 
             <div class="imagen-placeholder">
                 <img src="./img/perspectiva.jpg"
-                     alt="Perspectiva del color">
+                     alt="Perspectiva">
             </div>
 
             <div class="imagen-placeholder">
@@ -238,37 +198,35 @@
 
     </section>
 
-    <!-- CONCLUSIÓN -->
-    <section id="conclusion">
-
-        <h2>Conclusión</h2>
-
-        <p>
-            El color es mucho más que un elemento visual.
-            Influye en nuestras emociones, pensamientos y forma
-            de relacionarnos con el mundo.
-        </p>
-
-        <p>
-            Comprender el lenguaje del color nos permite apreciar
-            mejor el arte, el diseño y la comunicación visual.
-        </p>
-
-    </section>
-
-    <!-- PIE DE PÁGINA -->
     <footer>
 
         <p>
-            Proyecto educativo sobre teoría, historia y psicología del color.
-        </p>
-
-        <p>
-            Basado en la conferencia de Sara Viloria,
-            Licenciada en Artes Visuales.
+            Proyecto educativo sobre teoría y psicología del color.
         </p>
 
     </footer>
+
+    <script>
+        const boton = document.getElementById("modo");
+
+        if(localStorage.getItem("tema") === "oscuro"){
+            document.body.classList.add("dark");
+            boton.textContent = "☀️ Modo claro";
+        }
+
+        boton.addEventListener("click", () => {
+
+            document.body.classList.toggle("dark");
+
+            if(document.body.classList.contains("dark")){
+                boton.textContent = "☀️ Modo claro";
+                localStorage.setItem("tema", "oscuro");
+            }else{
+                boton.textContent = "🌙 Modo oscuro";
+                localStorage.setItem("tema", "claro");
+            }
+        });
+    </script>
 
 </body>
 </html>
